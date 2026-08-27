@@ -148,7 +148,7 @@ def test_package_metadata_matches_plugin_version() -> None:
 
     assert v3_package["SubscribeCal"]["version"] == "2.0.1"
     assert v3_package["SubscribeCal"]["name"] == "订阅日历（dibin）"
-    assert v3_package["SubscribeCal"]["author"] == "dibin666"
+    assert v3_package["SubscribeCal"]["author"] == "Attente"
     assert v3_package["SubscribeCal"]["system_version"] == ">=3.0.0"
     assert v2_package["SubscribeCal"]["v3"] is False
     assert SubscribeCal.plugin_version == v3_package["SubscribeCal"]["version"]

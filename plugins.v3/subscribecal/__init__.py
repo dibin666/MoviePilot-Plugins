@@ -237,9 +237,9 @@ class SubscribeCal(_PluginBase):
     # 插件版本
     plugin_version = "2.0.1"
     # 插件作者
-    plugin_author = "dibin666"
+    plugin_author = "Attente"
     # 作者主页
-    author_url = "https://github.com/dibin666"
+    author_url = "https://github.com/wikrin"
     # 插件配置项ID前缀
     plugin_config_prefix = "subscribecal_"
     # 加载顺序
